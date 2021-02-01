@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/furley_bg.png");
+}
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.left {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 100%;
+    min-width: 430px;
+    padding-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.right {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 100%;
+    min-width: 300px;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.attlist {
+    list-style: none;
+}
+
+.attlist li {
+    margin: 6px 0;
+}
+
+.attlist .tot1,
+.attlist .tot2 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    vertical-align: middle;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.tot1 {
+    background-color: #0aa4ff40;
+}
+
+.tot2 {
+    background-color: #0aa4ff40
+}
+
+.attlist label {
+    width: 100px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+input[type="range"] {
+    width: 200px;
+    vertical-align: middle;
+}
+
+.svg-container {
+    width: 100%;
+    position: relative;
+}
+
+.iconography svg:nth-child(1) {
+    left: calc( 50% - 20px);
+    position: absolute;
+    top: -40px;
+    width: 40px;
+}
+.iconography svg:nth-child(1) .cls-1{fill:none;}
+.iconography svg:nth-child(1) .cls-1,.cls-2{stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:20px;}
+
+.iconography svg:nth-child(2) {
+    right: calc( 13% - 19px);
+    position: absolute;
+    top: calc(14% - 50px);
+    width: 40px;
+}
+.iconography svg:nth-child(3) {
+    right: 0;
+    position: absolute;
+    left: calc( 98% - 2px);
+    bottom: calc(63% - 20px);
+    width: 40px;
+}
+.iconography svg:nth-child(4) {
+    top: calc( 63% - 25px);
+    left: calc( 98% - 3px);
+    position: absolute;
+    bottom: -40px;
+    width: 40px;
+}
+.iconography svg:nth-child(5) {
+    right: calc( 12% - 20px);
+    position: absolute;
+    bottom: calc(13% - 47px);
+    width: 40px;
+}
+.iconography svg:nth-child(5) .fil0 {fill:black;fill-rule:nonzero}
+#chart circle,
+#chart line {
+    fill: none;
+    stroke-opacity: .4;
+    stroke: #000000;
+}
+.iconography svg:nth-child(6) {
+    left: 219px;
+    position: absolute;
+    top: calc(103% - 18px);
+    width: 40px;
+}
+.iconography svg:nth-child(7) {
+    left: calc( 17% - 20px);
+    position: absolute;
+    bottom: calc(12% - 43px);
+    width: 40px;
+}
+.iconography svg:nth-child(8) {
+    left: calc( 1% - 34px);
+    position: absolute;
+    bottom: calc(46% - 50px);
+    width: 40px;
+}
+.iconography svg:nth-child(9) {
+    left: calc( 2% - 32px);
+    position: absolute;
+    bottom: calc(75% - 50px);
+    width: 40px;
+}
+.iconography svg:nth-child(10) {
+    left: calc( 16% - 20px);
+    position: absolute;
+    top: calc(14% - 50px);
+    width: 40px;
+}
+.iconography {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.shape1 {
+    fill: #0aa4ff;
+    fill-opacity: .2;
+    stroke: #0aa4ff;
+    stroke-opacity: 1;
+    stroke-width: 3px;
+}
+
+.pointvert1 {
+    fill: #0aa4ff;
+}
+
+#chart circle.pointvert1 {
+    fill: #0aa4ff;
+}
+
+
+.shape2 {
+    fill:#0aa4ff;
+    fill-opacity: .2;
+    stroke: #0aa4ff;
+    stroke-opacity: 1;
+    stroke-width: 3px;
+}
+
+#chart circle.pointvert2 {
+    fill: #0aa4ff;
+}
+
+#nameDiv{
+    margin-top: 500px;
+        text-align: left;
+}
+
+#monthDiv {
+    text-align: right;
+}
+#areaDiv {
+
+    text-align: center;
+}
+
+#actionDiv {
+    text-align: center;
+}
+
+.input {
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px;
+}
+
+#Submit {
+
+    width: 100px;
+    height: 40px;
+    font-size: 23px;
+    font-family: 'Open Sans';
+    background-color: #1293dd;
+    color:black;
+    /*box-shadow: 0 2px 2px 0 rgba(0,0,0,0.5);*/
+    margin-top: 10px;
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color: white;
+}
+
+table, th, td, tr{
+    border: 2px solid black;
+    padding: 5px;
+
+}
+
+th{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+td{
+    font-size: 20px;
+    color:black;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+tr:hover{
+    background-color: wheat;
+    color: white;
+}
+
